@@ -1,0 +1,194 @@
+
+@import "../../components/index.less";
+
+.content {
+    margin:11vw 0 13.9vw;overflow: hidden;
+    li {
+        list-style: none;
+    }
+}
+// 帮您贷款、二手车、开走吧
+.part2 {
+  margin:2vw 0;background: #fff;
+  a {
+      display: inline-block;
+      height: 35vw; width: 30vw;
+      margin:2vw 2.5vw 2vw 0;
+      text-align: center;
+      p {
+          margin-top: 3vw;
+          font-size: 4.5vw;
+      }
+      span {
+          color: #999;font-size: 3vw;
+      }
+  }
+  a:nth-child(1) {
+      background:url("../../images/b1.png");
+      background-size: cover;
+      margin-left: 2.5vw;
+  }
+  a:nth-child(2) {
+      background:url("../../images/b2.png");
+      background-size: cover;
+  }
+  a:nth-child(3) {
+      background:url("../../images/b3.png");
+      background-size: cover;
+  }
+}
+// 九宫格
+.am-grid-square {
+    background: #fff;
+    padding-bottom: 5.8vw;   
+    border-bottom: 1px solid #e5e5e5;
+    .am-flexbox-align-stretch {
+        display: flex;
+        color: #333;
+        font-size: 3.5vw;
+        padding-top:5.8vw;
+        .column-num-5 {
+            text-align: center;
+        }
+        img{
+            width: 9.3vw;
+            height: 9.3vw;
+            margin-bottom: 1.3vw;
+        }
+        &:nth-child(2) {
+            .am-grid-item:nth-child(5) {
+                color:#e9474d;
+            }
+        }
+    }
+}
+
+// 价钱
+.priceSearch {
+    background: #fff;
+    padding: 3.2vw 0 4vw;
+    div{
+        margin:0 2vw 3.2vw;
+        span {
+            color: #999;
+            font-size: 3vw;
+        }
+        a{
+            font-size: 3.5vw;
+            padding: 0 6vw;
+        }
+    }
+    button {
+        background: rgba(233,71,77,.05);
+        text-align: center;
+        color: #e9474d;
+        border: 1px solid #e9474d;
+        border-radius: 5px;
+        width: 90vw;
+        display: block;
+        height: 10vw;
+        margin: 0 auto;
+        font-size:3.2vw;
+    }
+}
+
+// 汽车保险、旗舰店、易鑫体验店、领取那中心
+.shopCenter {
+    background:@bg;
+    margin:2vw 0;
+    display: flex;
+    justify-content: space-around;
+    color:#394043;
+    padding: 4vw 0;
+    font-size: @12;
+    img {
+        width: 12vw;
+        height: 12vw;
+        margin-bottom: 2vw;
+    }
+    div {
+        text-align: center;
+    }
+}
+
+//易鑫热点
+.hot {
+    background: @bg;
+    font-size: @12;
+    .benefit {
+        border-bottom:1px solid #eee;
+    }
+    .hotDiv {
+        display: flex;
+        height: 13.3vw;
+        align-items: center;
+        img {
+            width: 14vw;height: 4.5vw;margin: 0 2vw;
+        }   
+        p {
+            width: 18vw;color: #999;font-size: 2.8vw;margin: 0 2vw;
+        }
+        span {
+            float: right;margin-right: 3vw;
+        }
+    }
+    
+}
+
+.ads {
+    margin:2vw 0;
+    img {
+        width: 50vw;
+    }
+}
+
+//限时抢购
+
+.flashSale {
+    background: @bg;
+    margin-bottom: 2vw;
+    .title {
+        padding:4vw 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            margin-right: 2vw;
+            width: 6vw;
+            height: 6vw;
+        }
+    }
+    ul {
+        width: 100%;
+        overflow: auto;
+        padding: 2vw 0 2vw 3vw;
+        white-space: nowrap;
+        li {
+            border:@b;
+            display: inline-block;
+            margin-right: 2vw;
+            color:#666;
+            font-size: @12;
+            text-align: center;
+            width: 25vw;
+            padding: 2vw 4vw;
+            img {
+                width: 20vw;
+                height: 13.3vw;
+                margin: 2vw 0;
+            }
+            .time {
+                font-size: 2.6vw;
+            }
+            .name {
+                color: #000;
+            }
+            .feature {
+                color: #e74951;
+                border:1px solid #e74951;
+                border-radius: 3vw;
+                margin: 2vw 0;
+            }
+        }
+    }
+}

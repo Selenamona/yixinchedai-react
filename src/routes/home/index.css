@@ -1,0 +1,189 @@
+.bb {
+  border-bottom: 1px solid #e5e5e5;
+}
+.content {
+  margin: 11vw 0 13.9vw;
+  overflow: hidden;
+}
+.content li {
+  list-style: none;
+}
+.part2 {
+  margin: 2vw 0;
+  background: #fff;
+}
+.part2 a {
+  display: inline-block;
+  height: 35vw;
+  width: 30vw;
+  margin: 2vw 2.5vw 2vw 0;
+  text-align: center;
+}
+.part2 a p {
+  margin-top: 3vw;
+  font-size: 4.5vw;
+}
+.part2 a span {
+  color: #999;
+  font-size: 3vw;
+}
+.part2 a:nth-child(1) {
+  background: url("../../images/b1.png");
+  background-size: cover;
+  margin-left: 2.5vw;
+}
+.part2 a:nth-child(2) {
+  background: url("../../images/b2.png");
+  background-size: cover;
+}
+.part2 a:nth-child(3) {
+  background: url("../../images/b3.png");
+  background-size: cover;
+}
+.am-grid-square {
+  background: #fff;
+  padding-bottom: 5.8vw;
+  border-bottom: 1px solid #e5e5e5;
+}
+.am-grid-square .am-flexbox-align-stretch {
+  display: flex;
+  color: #333;
+  font-size: 3.5vw;
+  padding-top: 5.8vw;
+}
+.am-grid-square .am-flexbox-align-stretch .column-num-5 {
+  text-align: center;
+}
+.am-grid-square .am-flexbox-align-stretch img {
+  width: 9.3vw;
+  height: 9.3vw;
+  margin-bottom: 1.3vw;
+}
+.am-grid-square .am-flexbox-align-stretch:nth-child(2) .am-grid-item:nth-child(5) {
+  color: #e9474d;
+}
+.priceSearch {
+  background: #fff;
+  padding: 3.2vw 0 4vw;
+}
+.priceSearch div {
+  margin: 0 2vw 3.2vw;
+}
+.priceSearch div span {
+  color: #999;
+  font-size: 3vw;
+}
+.priceSearch div a {
+  font-size: 3.5vw;
+  padding: 0 6vw;
+}
+.priceSearch button {
+  background: rgba(233, 71, 77, 0.05);
+  text-align: center;
+  color: #e9474d;
+  border: 1px solid #e9474d;
+  border-radius: 5px;
+  width: 90vw;
+  display: block;
+  height: 10vw;
+  margin: 0 auto;
+  font-size: 3.2vw;
+}
+.shopCenter {
+  background: #fff;
+  margin: 2vw 0;
+  display: flex;
+  justify-content: space-around;
+  color: #394043;
+  padding: 4vw 0;
+  font-size: 3.2vw;
+}
+.shopCenter img {
+  width: 12vw;
+  height: 12vw;
+  margin-bottom: 2vw;
+}
+.shopCenter div {
+  text-align: center;
+}
+.hot {
+  background: #fff;
+  font-size: 3.2vw;
+}
+.hot .benefit {
+  border-bottom: 1px solid #eee;
+}
+.hot .hotDiv {
+  display: flex;
+  height: 13.3vw;
+  align-items: center;
+}
+.hot .hotDiv img {
+  width: 14vw;
+  height: 4.5vw;
+  margin: 0 2vw;
+}
+.hot .hotDiv p {
+  width: 18vw;
+  color: #999;
+  font-size: 2.8vw;
+  margin: 0 2vw;
+}
+.hot .hotDiv span {
+  float: right;
+  margin-right: 3vw;
+}
+.ads {
+  margin: 2vw 0;
+}
+.ads img {
+  width: 50vw;
+}
+.flashSale {
+  background: #fff;
+  margin-bottom: 2vw;
+}
+.flashSale .title {
+  padding: 4vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flashSale .title img {
+  margin-right: 2vw;
+  width: 6vw;
+  height: 6vw;
+}
+.flashSale ul {
+  width: 100%;
+  overflow: auto;
+  padding: 2vw 0 2vw 3vw;
+  white-space: nowrap;
+}
+.flashSale ul li {
+  border: 1px solid #e5e5e5;
+  display: inline-block;
+  margin-right: 2vw;
+  color: #666;
+  font-size: 3.2vw;
+  text-align: center;
+  width: 25vw;
+  padding: 2vw 4vw;
+}
+.flashSale ul li img {
+  width: 20vw;
+  height: 13.3vw;
+  margin: 2vw 0;
+}
+.flashSale ul li .time {
+  font-size: 2.6vw;
+}
+.flashSale ul li .name {
+  color: #000;
+}
+.flashSale ul li .feature {
+  color: #e74951;
+  border: 1px solid #e74951;
+  border-radius: 3vw;
+  margin: 2vw 0;
+}
